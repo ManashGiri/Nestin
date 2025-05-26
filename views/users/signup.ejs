@@ -1,0 +1,33 @@
+<% layout("/layouts/boilerplate.ejs") -%>
+    <div class="row mt-4">
+        <div class="col-6 offset-3">
+            <form action="/signup" method="POST" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input name="email" id="email" type="email" placeholder="nestinuser@gmail.com"
+                        class="form-control" pattern=".+@.+\..+" required>
+                    <div class="invalid-feedback">Please enter a valid Email</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input name="username" id="username" type="text" placeholder="Nestin_User"
+                        class="form-control" required>
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please enter a valid Username</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input name="password" id="paswword" type="password"
+                        placeholder="Create a strong password with letters, numbers and symbols" class="form-control"
+                        required>
+                    <div class="valid-feedback">Make a habit of creating stronger passwords!</div>
+                    <div class="invalid-feedback">Please enter Password</div>
+                </div>
+                <center>
+                    <button class="btn btn-outline-danger"> Sign Up </button>
+                </center>
+            </form>
+        </div>
+    </div>

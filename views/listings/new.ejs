@@ -1,0 +1,98 @@
+<% layout("/layouts/boilerplate.ejs") -%>
+    <div class="row mt-3">
+        <div class="col-8 offset-2">
+            <form method="POST" action="/listings" class="needs-validation" novalidate enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input name="listing[title]" id="title" placeholder="Add a catchy title" type="text"
+                        class="form-control" required>
+                    <div class="valid-feedback">Title looks good!</div>
+                    <div class="invalid-feedback">Please enter a valid Title</div>
+                </div>
+
+                <div class="mb-2">
+                    <label for="description" class="form-label">Description</label>
+                    <textarea name="listing[description]" id="description" placeholder="Enter description" type="text"
+                        class="form-control" required></textarea>
+                    <div class="invalid-feedback">Please enter a valid short description</div>
+                    <div class="valid-feedback">Superb!</div>
+                </div>
+
+                <div class="categories">
+                    <div>
+                        <label for="category1" class="form-label">Trending</label>
+                        <input type="checkbox" id="category1" value="Trending" name="listing[category]">
+                    </div>
+                    <div>
+                        <label for="category2" class="form-label">Rooms</label>
+                        <input type="checkbox" id="category2" value="Rooms" name="listing[category]">
+                    </div>
+                    <div>
+                        <label for="category3" class="form-label">Bed and Breakfast</label>
+                        <input type="checkbox" id="category3" value="Bed and Breakfast" name="listing[category]">
+                    </div>
+                    <div>
+                        <label for="category4" class="form-label">Game Room</label>
+                        <input type="checkbox" id="category4" value="Game Room" name="listing[category]">
+                    </div>
+                    <div>
+                        <label for="category5" class="form-label">Arctic</label>
+                        <input type="checkbox" id="category5" value="Arctic" name="listing[category]">
+                    </div>
+                </div>
+                <div class="mb-3 categories">
+                    <div>
+                        <label for="category6" class="form-label">Camping</label>
+                        <input type="checkbox" id="category6" value="Camping" name="listing[category]">
+                    </div>
+                    <div>
+                        <label for="category7" class="form-label">Swimming Pool</label>
+                        <input type="checkbox" id="category7" value="Pools" name="listing[category]">
+                    </div>
+                    <div>
+                        <label for="category8" class="form-label">Mountains</label>
+                        <input type="checkbox" id="category8" value="Mountains" name="listing[category]">
+                    </div>
+                    <div>
+                        <label for="category9" class="form-label">Iconic City</label>
+                        <input type="checkbox" id="category9" value="Iconic Cities" name="listing[category]">
+                    </div>
+                    <div>
+                        <label for="category0" class="form-label">Castle</label>
+                        <input type="checkbox" id="category0" value="Castles" name="listing[category]">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="image" class="form-label">Upload Image</label>
+                    <input name="listing[image]" id="image" type="file" class="form-control" required>
+                    <div class="invalid-feedback">Image should be valid (png, jpg, jpeg, avif are allowed)</div>
+                </div>
+
+                <div class="row">
+                    <div class="mb-3 col-md-4">
+                        <label for="price" class="form-label">Price</label>
+                        <input name="listing[price]" id="price" placeholder="1200" type="number" class="form-control"
+                            required>
+                        <div class="invalid-feedback">Price should be valid</div>
+                    </div>
+
+                    <div class="mb-3 col-md-8">
+                        <label for="country" class="form-label">Country</label>
+                        <input name="listing[country]" id="country" placeholder="India" type="text" class="form-control"
+                            required>
+                        <div class="invalid-feedback">Country name should be valid</div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="location" class="form_label">Location</label>
+                    <input name="listing[location]" id="location" placeholder="Mumbai" type="location"
+                        class="form-control" required>
+                    <div class="invalid-feedback">Location should be valid</div>
+                </div>
+
+                <button class="btn btn-danger mb-3">Add</button>
+            </form>
+        </div>
+    </div>

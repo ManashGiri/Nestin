@@ -1,4 +1,4 @@
-const cloudinary = require('cloudinary').v2;
+const cloudinary = require('cloudinary');
 const Listing = require("../models/listing.js");
 const NodeGeocoder = require("node-geocoder");
 const initdata = require("../init/data.js");

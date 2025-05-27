@@ -258,15 +258,15 @@ body {
 
 @media (max-width: 576px) {
     .index-img {
-        height: 30vh;
+        height: 25vh;
     }
     .listing-img {
-        height: 30vh;
+        height: 25vh;
     }
 
     .tax-toggle {
         font-size: x-small;
-        padding: 7px;
+        padding: 10px;
         height: 40px;
         margin-left: auto;
     }
@@ -285,7 +285,7 @@ body {
     }
 
     #map {
-        height: 50vh;
+        height: 40vh;
         width: 90vw;
     }
 

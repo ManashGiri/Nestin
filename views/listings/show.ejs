@@ -12,14 +12,14 @@
             <img src="<%= listing.image.url %>" class="card-img-top show-img listing-img" alt="listing_image">
             <div class="card-body">
                 <p class="card-text">
-                    <u style="font-size: 18px;"><b><i>@<%= listing.owner.username %></i></b></u> <br />
+                    <u style="font-size: 18px;"><b><i>@<%= listing.owner.username %></i></b></u> <br>
 
-                    <%= listing.description %> <br />
+                    <%= listing.description %> <br>
 
-                    Price: &#8377; <%= listing.price.toLocaleString("en-IN") %> &nbsp; + &nbsp;
-                        <i> &#8377; <%= (listing.price * 0.16).toLocaleString("en-IN") %> &nbsp; taxes </i> / night <br />
+                    <b>Price:</b> &nbsp; &#8377; <%= listing.price.toLocaleString("en-IN") %> &nbsp; + &nbsp;
+                        <i> &#8377; <%= (listing.price * 0.16).toLocaleString("en-IN") %> &nbsp; taxes </i> / night <br>
 
-                    Location: <%= listing.location %>, <%= listing.country %> <br />
+                    <b>Location:</b> &nbsp; <%= listing.location %>, <%= listing.country %> <br>
 
                     <% if (curUser && curUser._id.equals(listing.owner._id)) { %>
                         <form method="GET" action="/listings/<%= listing._id %>/edit" style="display: inline-block; margin-right: 1rem;">

@@ -70,7 +70,7 @@
         <form method="POST" action="/listings/search" onsubmit="preparePost(this)">
             <button class="filter">
                 <i class="fa-solid fa-mug-hot"></i>
-                <p> Bed and Breakfast </p>
+                <p> Bed N Breakfast </p>
             </button>
         </form>
 
@@ -88,7 +88,7 @@
             <a href="/listings/<%= listing._id %>" class="listing-link">
                 <div class="card col-1 listing-card" style="width: 100%;">
                     <img src="<%= listing.image.url %>" class="card-img-top index-img" alt="listing_image">
-                    <div class="card-img-overlay"></div>
+                    <!-- <div class="card-img-overlay"></div> -->
                     <div class="card-body">
                         <p class="card-text">
                             <b>

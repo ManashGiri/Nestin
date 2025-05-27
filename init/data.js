@@ -10,7 +10,7 @@ const sampleListings = [
         price: 1500,
         location: "Malibu",
         country: "United States",
-        category: ["Trending","Bed and Breakfast","Rooms","Pools"],
+        category: ["Trending","Bed N Breakfast","Rooms","Pools"],
       },
       {
         title: "Modern Loft in Downtown",
@@ -36,7 +36,7 @@ const sampleListings = [
         price: 1000,
         location: "Aspen",
         country: "United States",
-        category: ["Trending","Bed and Breakfast","Mountains","Rooms","Pools"],
+        category: ["Trending","Bed N Breakfast","Mountains","Rooms","Pools"],
       },
       {
         title: "Historic Villa in Tuscany",
@@ -49,7 +49,7 @@ const sampleListings = [
         price: 2500,
         location: "Florence",
         country: "Italy",
-        category: ["Bed and Breakfast","Iconic Cities","Rooms","Pools"],
+        category: ["Bed N Breakfast","Iconic Cities","Rooms","Pools"],
       },
       {
         title: "Secluded Treehouse Getaway",
@@ -75,7 +75,7 @@ const sampleListings = [
         price: 2000,
         location: "Cancun",
         country: "Mexico",
-        category: ["Trending","Bed and Breakfast","Rooms","Game Room","Pools"],
+        category: ["Trending","Bed N Breakfast","Rooms","Game Room","Pools"],
       },
       {
         title: "Rustic Cabin by the Lake",
@@ -88,7 +88,7 @@ const sampleListings = [
         price: 900,
         location: "Lake Tahoe",
         country: "United States",
-        category: ["Bed and Breakfast","Mountains","Rooms","Pools"],
+        category: ["Bed N Breakfast","Mountains","Rooms","Pools"],
       },
       {
         title: "Luxury Penthouse with City Views",
@@ -101,7 +101,7 @@ const sampleListings = [
         price: 3500,
         location: "Los Angeles",
         country: "United States",
-        category: ["Trending","Bed and Breakfast","Rooms","Game Room","Iconic Cities","Pools"],
+        category: ["Trending","Bed N Breakfast","Rooms","Game Room","Iconic Cities","Pools"],
       },
       {
         title: "Ski-In/Ski-Out Chalet",
@@ -114,7 +114,7 @@ const sampleListings = [
         price: 3000,
         location: "Verbier",
         country: "Switzerland",
-        category: ["Bed and Breakfast","Mountains","Rooms","Castles"],
+        category: ["Bed N Breakfast","Mountains","Rooms","Castles"],
       },
       {
         title: "Safari Lodge in the Serengeti",
@@ -140,7 +140,7 @@ const sampleListings = [
         price: 1800,
         location: "Amsterdam",
         country: "Netherlands",
-        category: ["Bed and Breakfast"],
+        category: ["Bed N Breakfast"],
       },
       {
         title: "Private Island Retreat",
@@ -153,7 +153,7 @@ const sampleListings = [
         price: 10000,
         location: "Fiji",
         country: "Fiji",
-        category: ["Bed and Breakfast","Rooms","Castles","Pools"],
+        category: ["Bed N Breakfast","Rooms","Castles","Pools"],
       },
       {
         title: "Charming Cottage in the Cotswolds",
@@ -166,7 +166,7 @@ const sampleListings = [
         price: 1200,
         location: "Cotswolds",
         country: "United Kingdom",
-        category: ["Bed and Breakfast","Rooms","Game Room","Pools"],
+        category: ["Bed N Breakfast","Rooms","Game Room","Pools"],
       },
       {
         title: "Historic Brownstone in Boston",
@@ -179,7 +179,7 @@ const sampleListings = [
         price: 2200,
         location: "Boston",
         country: "United States",
-        category: ["Bed and Breakfast","Rooms","Game Room","Iconic Cities"],
+        category: ["Bed N Breakfast","Rooms","Game Room","Iconic Cities"],
       },
       {
         title: "Beachfront Bungalow in Bali",
@@ -192,7 +192,7 @@ const sampleListings = [
         price: 1800,
         location: "Bali",
         country: "Indonesia",
-        category: ["Trending","Bed and Breakfast","Rooms","Game Room","Pools"],
+        category: ["Trending","Bed N Breakfast","Rooms","Game Room","Pools"],
       },
       {
         title: "Mountain View Cabin in Banff",
@@ -205,7 +205,7 @@ const sampleListings = [
         price: 1500,
         location: "Banff",
         country: "Canada",
-        category: ["Bed and Breakfast","Rooms","Arctic","Pools"],
+        category: ["Bed N Breakfast","Rooms","Arctic","Pools"],
       },
       {
         title: "Art Deco Apartment in Miami",
@@ -218,7 +218,7 @@ const sampleListings = [
         price: 1600,
         location: "Miami",
         country: "United States",
-        category: ["Bed and Breakfast","Rooms","Game Room","Iconic Cities","Castles","Pools"],
+        category: ["Bed N Breakfast","Rooms","Game Room","Iconic Cities","Castles","Pools"],
       },
       {
         title: "Tropical Villa in Phuket",
@@ -231,7 +231,7 @@ const sampleListings = [
         price: 3000,
         location: "Phuket",
         country: "Thailand",
-        category: ["Bed and Breakfast","Rooms","Game Room"],
+        category: ["Bed N Breakfast","Rooms","Game Room"],
       },
       {
         title: "Historic Castle in Scotland",
@@ -244,7 +244,7 @@ const sampleListings = [
         price: 4000,
         location: "Scottish Highlands",
         country: "United Kingdom",
-        category: ["Bed and Breakfast","Rooms","Iconic Cities","Castles","Pools"],
+        category: ["Bed N Breakfast","Rooms","Iconic Cities","Castles","Pools"],
       },
       {
         title: "Desert Oasis in Dubai",
@@ -257,7 +257,7 @@ const sampleListings = [
         price: 5000,
         location: "Dubai",
         country: "United Arab Emirates",
-        category: ["Trending","Bed and Breakfast","Rooms","Iconic Cities","Camping"],
+        category: ["Trending","Bed N Breakfast","Rooms","Iconic Cities","Camping"],
       },
       {
         title: "Rustic Log Cabin in Montana",
@@ -270,7 +270,7 @@ const sampleListings = [
         price: 1100,
         location: "Montana",
         country: "United States",
-        category: ["Bed and Breakfast","Mountains","Rooms"],
+        category: ["Bed N Breakfast","Mountains","Rooms"],
       },
       {
         title: "Beachfront Villa in Greece",
@@ -283,7 +283,7 @@ const sampleListings = [
         price: 2500,
         location: "Mykonos",
         country: "Greece",
-        category: ["Bed and Breakfast","Rooms","Game Room","Camping"],
+        category: ["Bed N Breakfast","Rooms","Game Room","Camping"],
       },
       {
         title: "Eco-Friendly Treehouse Retreat",
@@ -309,7 +309,7 @@ const sampleListings = [
         price: 1600,
         location: "Charleston",
         country: "United States",
-        category: ["Bed and Breakfast","Rooms","Pools"],
+        category: ["Bed N Breakfast","Rooms","Pools"],
       },
       {
         title: "Modern Apartment in Tokyo",
@@ -322,7 +322,7 @@ const sampleListings = [
         price: 2000,
         location: "Tokyo",
         country: "Japan",
-        category: ["Trending","Bed and Breakfast","Rooms","Game Room","Iconic Cities","Pools"],
+        category: ["Trending","Bed N Breakfast","Rooms","Game Room","Iconic Cities","Pools"],
       },
       {
         title: "Lakefront Cabin in New Hampshire",
@@ -335,7 +335,7 @@ const sampleListings = [
         price: 1200,
         location: "New Hampshire",
         country: "United States",
-        category: ["Bed and Breakfast","Rooms"],
+        category: ["Bed N Breakfast","Rooms"],
       },
       {
         title: "Luxury Villa in the Maldives",
@@ -348,7 +348,7 @@ const sampleListings = [
         price: 6000,
         location: "Maldives",
         country: "Maldives",
-        category: ["Trending","Bed and Breakfast","Rooms","Iconic Cities"],
+        category: ["Trending","Bed N Breakfast","Rooms","Iconic Cities"],
       },
       {
         title: "Ski Chalet in Aspen",
@@ -361,7 +361,7 @@ const sampleListings = [
         price: 4000,
         location: "Aspen",
         country: "United States",
-        category: ["Bed and Breakfast","Rooms","Game Room","Pools"],
+        category: ["Bed N Breakfast","Rooms","Game Room","Pools"],
       },
       {
         title: "Secluded Beach House in Costa Rica",
@@ -374,7 +374,7 @@ const sampleListings = [
         price: 1800,
         location: "Costa Rica",
         country: "Costa Rica",
-        category: ["Bed and Breakfast","Rooms","Pools"],
+        category: ["Bed N Breakfast","Rooms","Pools"],
       },
   // ... (other listings)
 ];

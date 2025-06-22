@@ -245,7 +245,8 @@ body {
 
     .nav-link-border {
         border: 1px solid black;
-        width: 100vh;
+        width: 100vw;
+        border-radius: 0%;
     }
 
     .nav-link-border:hover {

@@ -5,6 +5,14 @@ body {
     min-height: 100vh;
 }
 
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .container {
     flex: 1;
 }
@@ -29,8 +37,14 @@ body {
     font-size: 2rem;
 }
 
-.new {
-    background-color: white;
+.mdnsmscr {
+    display: none;
+}
+
+.lgscr {
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 /* Footer */
@@ -40,7 +54,7 @@ body {
     width: 100%;
 }
 
-.f-info-socials a{
+.f-info-socials a {
     text-decoration: none;
 }
 
@@ -217,20 +231,62 @@ body {
     .navbar {
         background-color: #fe424d;
     }
-    .search-btn, .search-inp, .new, .login{
+
+    .custom-collapse {
+        position: absolute;
+        top: 4.9rem;
+        left: 0;
+        border: 1px solid black;
+        width: 100%;
+        background-color: white;
+        color: #222;
+        /* padding: 0.5rem 0.8rem; */
+    }
+
+    .nav-link-border {
+        border: 1px solid black;
+        width: 100vh;
+    }
+
+    .nav-link-border:hover {
+        font-weight: 900;
         border: 1px solid black;
     }
+
+    .search-inp {
+        margin: 0.5rem 0.5rem;
+        border: 1px solid black;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .lgscr {
+        display: none;
+    }
+
+    .mdnsmscr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .brand-icon {
         border-radius: 50%;
         border: 2px solid white;
     }
+
     .explore {
         color: white;
         font-weight: 700;
     }
+
     .navbar-toggler {
         background-color: #fff;
     }
+
     .categories {
         display: inline-block;
     }
@@ -258,8 +314,9 @@ body {
 
 @media (max-width: 576px) {
     .index-img {
-        height: 25vh;
+        height: 30vh;
     }
+
     .listing-img {
         height: 25vh;
     }

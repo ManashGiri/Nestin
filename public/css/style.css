@@ -237,7 +237,7 @@ body {
         top: 4.9rem;
         left: 0;
         border: 1px solid black;
-        width: 100vw;
+        width: 100%;
         background-color: white;
         color: #222;
         /* padding: 0.5rem 0.8rem; */
@@ -245,7 +245,7 @@ body {
 
     .nav-link-border {
         border: 1px solid black;
-        width: 100vw;
+        width: 100%;
         border-radius: 0%;
     }
 

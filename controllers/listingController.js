@@ -3,6 +3,9 @@ const Listing = require("../models/listing.js");
 const NodeGeocoder = require("node-geocoder");
 const initdata = require("../init/data.js");
 
+const isProduction = process.env.NODE_ENV === "production";
+const refererURL = isProduction ? "https://nestin-wnne.onrender.com/listings" : "http://localhost:8080/listings";
+
 module.exports.init = async (req, res) => {
     const count = await Listing.countDocuments({});
     if (count === 0) {
@@ -92,6 +95,19 @@ module.exports.create = async (req, res, next) => {
     console.log(listing);
     const geocoder = NodeGeocoder({
         provider: 'openstreetmap',
+        fetch: async (url, options = {}) => {
+            const modifiedOptions = {
+                ...options,
+                headers: {
+                    ...options.headers,
+                    'User-Agent': 'Nestin/1.0 (503manashsvjc@gmail.com)',
+                    'Referer': refererURL,
+                }
+            };
+
+            return fetch(url, modifiedOptions);
+        }
+
     });
     const response = await geocoder.geocode(listing.location);
     const geometry = {
